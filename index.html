@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h2>Javascript can change HTML content</h2>
+        <p id="demo">Original content that will be changed when you press the button below</p>
+        
+        <button type="button" onclick='document.getElementById("demo").innerHTML = "You changed the content with Javascript"'>top</button>
+        <br>
+        <button type="button" onclick='document.getElementById("demo2").innerHTML = "You changed the content with Javascript"'>bottom</button>
+        <p id="demo2">other text that will be changed</p>
+
+        
+    </body>
+</html>
